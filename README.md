@@ -85,10 +85,10 @@ text, the new text, and the type of change — ready to paste into an approval
 request, board paper, or review document. This tool produces that table and
 exports it to **Excel**, where reviewers and approvers actually work.
 
-| | Output | Best for |
-| --- | --- | --- |
-| `git diff` / diff viewers | Line-level `+` / `-` | Source-code review |
-| **policy-comparison-table** | Section-level before-after table (CSV / Markdown / Excel) | Policy, contract, manual, and spec revisions |
+| Tool | Output | Best for |
+|---|---|---|
+| `git diff` / diff viewers | Line-level `+` / `-` output | Source-code review |
+| `policy-comparison-table` | Section-level before-after table (CSV / Markdown / Excel) | Policy, contract, manual, and specification revisions |
 
 ## How it works
 
