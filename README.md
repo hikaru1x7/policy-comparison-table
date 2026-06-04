@@ -101,7 +101,7 @@ exports it to **Excel**, where reviewers and approvers actually work.
 Requires Node.js 18+.
 
 ```bash
-git clone https://github.com/your-org/policy-comparison-table.git
+git clone https://github.com/hikaru1x7/policy-comparison-table.git
 cd policy-comparison-table
 npm install
 npm run build

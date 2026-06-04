@@ -34,7 +34,7 @@
 ## インストール
 
 ```bash
-git clone https://github.com/<your-account>/policy-comparison-table.git
+git clone https://github.com/hikaru1x7/policy-comparison-table.git
 cd policy-comparison-table
 npm install
 npm run build
