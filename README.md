@@ -187,13 +187,11 @@ PowerShell.
 
 ## Output columns
 
-**English (default)**
-
 English columns:
 
 `Section`, `Before`, `After`, `Change Type`, `Summary`, `Notes`
 
-Japanese columns:
+Japanese columns (`--locale ja`):
 
 `条項`, `改定前`, `改定後`, `変更区分`, `変更内容`, `備考`
 
@@ -223,10 +221,10 @@ Full example inputs and outputs live in [`examples/`](examples/).
 
 ## Supported formats
 
-| | Format |
-| --- | --- |
-| **Input** | Plain text (`.txt`), Markdown (`.md`), Word (`.docx`) |
-| **Output** | CSV, Markdown table, Excel (`.xlsx`) |
+| Type | Supported formats |
+|---|---|
+| Input | Plain text (`.txt`), Markdown (`.md`), Word (`.docx`) |
+| Output | CSV, Markdown table, Excel (`.xlsx`) |
 
 CSV output is written as UTF-8 with a BOM (for reliable Excel detection),
 quotes fields that contain commas, quotes, or line breaks, and preserves long
