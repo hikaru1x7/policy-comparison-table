@@ -97,7 +97,7 @@ exports it to **Excel**, where reviewers and approvers actually work.
    `第1条` / `Article 1` style sections, numbered headings, or paragraphs).
 3. Match the blocks and compare their text.
 4. Classify each row as **unchanged**, **modified**, **added**, or **removed**.
-5. Export the result as a CSV or Markdown comparison table.
+5. Export the result as a CSV, Markdown, or Excel before-after comparison table.
 
 ## Install
 
