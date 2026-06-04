@@ -189,35 +189,35 @@ PowerShell.
 
 **English (default)**
 
-| Section | Before | After | Change Type | Summary | Notes |
-| --- | --- | --- | --- | --- | --- |
+English columns:
 
-**Japanese (`--locale ja`)**
+`Section`, `Before`, `After`, `Change Type`, `Summary`, `Notes`
 
-| 条項 | 改定前 | 改定後 | 変更区分 | 変更内容 | 備考 |
-| --- | --- | --- | --- | --- | --- |
+Japanese columns:
+
+`条項`, `改定前`, `改定後`, `変更区分`, `変更内容`, `備考`
 
 Change types are reported as `unchanged` / `modified` / `added` / `removed`
 (English) or `変更なし` / `変更` / `追加` / `削除` (Japanese).
 
 ## Example output
 
-English (`policy-comparison-table examples/before.md examples/after.md`):
+### English
 
 | Section | Before | After | Change Type | Summary | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Section 1 Purpose | …all full-time employees. | …all full-time and part-time employees. | modified | Text modified. |  |
-| Section 4 Equipment | …internet connection is the employee's responsibility. | …reimburses internet costs up to 3,000 yen per month. | modified | Text modified. |  |
-| Section 5 Security |  | …must use the company VPN… | added | Section added. |  |
-| Section 5 Termination | …revoke remote work arrangements at any time. |  | removed | Section removed. |  |
+|---|---|---|---|---|---|
+| Section 1 Purpose | ...all full-time employees. | ...all full-time and part-time employees. | modified | Text modified. |  |
+| Section 4 Equipment | ...internet connection is the employee's responsibility. | ...reimburses internet costs up to 3,000 yen per month. | modified | Text modified. |  |
+| Section 5 Security |  | ...must use the company VPN... | added | Section added. |  |
+| Section 5 Termination | ...revoke remote work arrangements at any time. |  | removed | Section removed. |  |
 
-Japanese (`--locale ja --changed-only`):
+### Japanese
 
 | 条項 | 改定前 | 改定後 | 変更区分 | 変更内容 | 備考 |
-| --- | --- | --- | --- | --- | --- |
-| 第1条 目的 | …適用対象は正社員とする。 | …適用対象は正社員および契約社員とする。 | 変更 | 文言を変更 |  |
-| 第5条 情報セキュリティ |  | …会社が指定するVPNを利用し… | 追加 | 条項を追加 |  |
-| 第5条 解除 | …在宅勤務をいつでも解除することができる。 |  | 削除 | 条項を削除 |  |
+|---|---|---|---|---|---|
+| 第1条 目的 | ...適用対象は正社員とする。 | ...適用対象は正社員および契約社員とする。 | 変更 | 文言を変更 |  |
+| 第5条 情報セキュリティ |  | ...会社が指定するVPNを利用し... | 追加 | 条項を追加 |  |
+| 第5条 解除 | ...在宅勤務をいつでも解除することができる。 |  | 削除 | 条項を削除 |  |
 
 Full example inputs and outputs live in [`examples/`](examples/).
 
