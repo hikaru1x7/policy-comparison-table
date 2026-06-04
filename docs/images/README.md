@@ -1,19 +1,19 @@
 # Screenshots
 
-`sample-output.png` is a **placeholder**. To show a real result in the main
-README, replace it with an actual Excel screenshot:
+These images are shown in the main [README](../../README.md).
 
-1. Generate a sample form:
+| File | Content |
+| --- | --- |
+| `sample-output.jpg` | Print preview (A4 landscape) — the form handed to reviewers |
+| `sample-excel.jpg` | The same table opened in Excel (editable) |
 
-   ```bash
-   node dist/index.js examples/japanese-before.docx examples/japanese-after.docx \
-     --locale ja --changed-only --format xlsx --output sample.xlsx
-   ```
+To refresh them, regenerate a form and re-capture:
 
-2. Open `sample.xlsx` in Excel and use **File → Print Preview** (A4 landscape).
-3. Take a screenshot and save it as `docs/images/sample-output.png`
-   (keep the same file name so the README image link keeps working).
+```bash
+node dist/index.js examples/japanese-long-before.docx examples/japanese-long-after.docx \
+  --locale ja --format xlsx --output sample.xlsx
+```
 
-A second screenshot of the multi-page layout (using the
-`examples/japanese-long-*.docx` files) is also useful to show page breaks and
-the repeated header.
+Open `sample.xlsx` in Excel, capture the print preview and the worksheet, and
+overwrite the two files above (keep the same names so the README links keep
+working).

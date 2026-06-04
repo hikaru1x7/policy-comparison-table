@@ -24,11 +24,14 @@ uploaded anywhere. There is no server, no account, and no cloud storage.
 
 ## Screenshot
 
-![Sample before-after comparison table](docs/images/sample-output.png)
+A generated **A4-landscape before-after comparison table** — the form you hand
+to reviewers and approvers (added text is highlighted in red + underline):
 
-> The image above is a placeholder. See
-> [docs/images/README.md](docs/images/README.md) for how to drop in a real
-> Excel screenshot.
+![Before-after comparison table (print preview)](docs/images/sample-output.jpg)
+
+The same table opened in **Excel** — fully editable, ready to print or share:
+
+![Before-after comparison table opened in Excel](docs/images/sample-excel.jpg)
 
 ## Table of contents
 
