@@ -79,11 +79,7 @@ revision work — but it is not limited to Japanese documents.
 
 ## Why not just a diff?
 
-A line-level diff (`+`/`-`) tells you *what bytes changed*. Document revision
-work needs something different: a **clause-by-clause table** showing the old
-text, the new text, and the type of change — ready to paste into an approval
-request, board paper, or review document. This tool produces that table and
-exports it to **Excel**, where reviewers and approvers actually work.
+A line-level diff (`+`/`-`) tells you what bytes changed. Document revision work needs something different: a clause-by-clause table showing the old text, the new text, and the type of change — ready to paste into an approval request, board paper, or review document. This tool produces that table and exports it to Excel, where reviewers and approvers actually work.
 
 | Tool | Output | Best for |
 |---|---|---|
