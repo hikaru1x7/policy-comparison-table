@@ -132,12 +132,12 @@ policy-comparison-table <before> <after> [options]
 ### Options
 
 | Option | Description |
-| --- | --- |
-| `--format <csv\|markdown>` | Output format (default: `markdown`). |
-| `--output <file>` | Write to a file instead of stdout. |
-| `--locale <en\|ja>` | Column and label language (default: `en`). |
+|---|---|
+| `--format <csv\|markdown\|xlsx>` | Output format. Default: `markdown`. |
+| `--output <file>` | Write to a file instead of stdout. Required for `xlsx`. |
+| `--locale <en\|ja>` | Column and label language. Default: `en`. |
 | `--changed-only` | Exclude unchanged rows. |
-| `--preset ja-policy` | Shortcut for `--locale ja --changed-only --format csv` (writes `comparison.csv` unless `--output` is given). |
+| `--preset ja-policy` | Shortcut for `--locale ja --changed-only --format csv`. Writes `comparison.csv` unless `--output` is given. |
 | `-h`, `--help` | Show help. |
 
 ### Examples
