@@ -1,0 +1,43 @@
+{
+  "name": "policy-comparison-table",
+  "version": "0.1.0",
+  "description": "Local CLI that compares two document versions and exports the differences as a before-after comparison table for Excel or Google Sheets.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "policy-comparison-table": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "cli",
+    "diff",
+    "comparison-table",
+    "policy",
+    "document-revision",
+    "markdown",
+    "csv"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "mammoth": "^1.12.0"
+  }
+}

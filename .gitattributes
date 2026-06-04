@@ -1,0 +1,14 @@
+# Default: normalize text files to LF inside the repository
+* text=auto eol=lf
+
+# Windows-only launchers keep CRLF so they run on double-click
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Shell script must stay LF for macOS / Linux
+*.sh text eol=lf
+
+# Binary assets (never touch line endings)
+*.png binary
+*.xlsx binary
+*.docx binary
