@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "Local CLI that compares two document versions and exports the differences as a before-after comparison table for Excel or Google Sheets.",
   "license": "MIT",
+  "author": "hikaru1x7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikaru1x7/policy-comparison-table.git"
+  },
+  "homepage": "https://github.com/hikaru1x7/policy-comparison-table#readme",
+  "bugs": {
+    "url": "https://github.com/hikaru1x7/policy-comparison-table/issues"
+  },
   "type": "commonjs",
   "bin": {
     "policy-comparison-table": "dist/index.js"

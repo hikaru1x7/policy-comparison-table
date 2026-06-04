@@ -4,6 +4,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933.svg)](https://nodejs.org/)
 [![Language: TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6.svg)](tsconfig.json)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![CI](https://github.com/hikaru1x7/policy-comparison-table/actions/workflows/ci.yml/badge.svg)](https://github.com/hikaru1x7/policy-comparison-table/actions/workflows/ci.yml)
 
 > **Generate Excel before-after comparison tables from two versions of a policy,
 > contract, manual, specification, or business document.**
