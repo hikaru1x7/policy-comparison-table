@@ -125,9 +125,13 @@ policy-comparison-table before.md after.md
 
 ## Usage
 
+For a Japanese-style Excel before-after comparison table:
+
 ```bash
-policy-comparison-table <before> <after> [options]
+policy-comparison-table before.docx after.docx --locale ja --changed-only --format xlsx --output comparison.xlsx
 ```
+
+This generates an editable Excel comparison table with Japanese column labels.
 
 ### Options
 
